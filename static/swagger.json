@@ -14,7 +14,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "https://libreriaflask-luis.herokuapp.com/",
+  "host": "libreriaflask-luis.herokuapp.com/",
   "basePath": "/",
   "schemes": [
     "https",
