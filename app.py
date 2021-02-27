@@ -30,7 +30,7 @@ app = Flask(__name__)
 app.register_blueprint(swagger_blueprint)
 # https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#connection-uri-format
 #                                    formato://username:password@host:port/databasename
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:Mysql123*@localhost:3306/flasklibreria'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql://l1xrvk8a8d59wtp0:p59icungboel6drb@phtfaw4p6a970uc0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/v71b8291595o8xhr'
 api = Api(app)
 CORS(app) #PERMITIENDO TODOS LOS MÉTODOS, DOMINIOS Y HEADERS
 # si tu servidor no tiene contraseña, ponlo asi:
